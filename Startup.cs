@@ -9,6 +9,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
+using MovieWeb.Data;// import to get MovieContext
+using Microsoft.EntityFrameworkCore; // Register the database context with the DI(Dependency Injection) container 
+
 namespace MovieWeb
 {
     public class Startup
@@ -24,6 +27,9 @@ namespace MovieWeb
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+
+            //Register MovieContext (register database)
+            services.AddDbContext<MovieContext>(options => options.UseSqlite(Configuration.GetConnectionString("MovieContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -49,8 +55,10 @@ namespace MovieWeb
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
-                    name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                     name: "default",
+                     pattern: "{controller=Home}/{action=Index}/{id?}");
+                endpoints.MapControllerRoute(name: "Movie", pattern: "/{controller=Movie}/{action=Movie}/{id?}");
+
             });
         }
     }
