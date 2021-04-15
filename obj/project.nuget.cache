@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YPl0J70kq2KTKexypDvA3lcb/Nnn+jGtXSP0r7L9yuBSt+Pszz98Mi4mlmLcKqQ4VoKN5Z6RlzaKR9st6VCNlA==",
+  "dgSpecHash": "qrInkXwgloKnL1VHOiby0SarqFHsdK4wx5KbHNQcGYZKOHSr6W3uJtXtMEhlw0a+hxJ0+o5tBRwqmzF6DVsxAg==",
   "success": true,
-  "projectFilePath": "D:\\Tai lieu\\CSDLNC\\Web_CSDL\\MovieWeb\\MovieWeb.csproj",
+  "projectFilePath": "d:\\Tai lieu\\CSDLNC\\Web_CSDL\\MovieWeb\\MovieWeb.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ThinkPro\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\ThinkPro\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.entityframeworkcore\\5.0.5\\microsoft.aspnetcore.diagnostics.entityframeworkcore.5.0.5.nupkg.sha512",

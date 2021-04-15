@@ -7505,11 +7505,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Tai lieu\\CSDLNC\\Web_CSDL\\MovieWeb\\MovieWeb.csproj",
+      "projectUniqueName": "d:\\Tai lieu\\CSDLNC\\Web_CSDL\\MovieWeb\\MovieWeb.csproj",
       "projectName": "MovieWeb",
-      "projectPath": "D:\\Tai lieu\\CSDLNC\\Web_CSDL\\MovieWeb\\MovieWeb.csproj",
+      "projectPath": "d:\\Tai lieu\\CSDLNC\\Web_CSDL\\MovieWeb\\MovieWeb.csproj",
       "packagesPath": "C:\\Users\\ThinkPro\\.nuget\\packages\\",
-      "outputPath": "D:\\Tai lieu\\CSDLNC\\Web_CSDL\\MovieWeb\\obj\\",
+      "outputPath": "d:\\Tai lieu\\CSDLNC\\Web_CSDL\\MovieWeb\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ThinkPro\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -7581,7 +7581,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

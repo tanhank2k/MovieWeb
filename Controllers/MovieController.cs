@@ -20,7 +20,7 @@ namespace MovieWeb.Controllers
         public MovieController(MovieContext context)
         {
             _context = context;
-        }
+        }//The constructor uses Dependency Injection to inject the db context into the controller
 
         // GET: Movie
         public async Task<IActionResult> Index()
